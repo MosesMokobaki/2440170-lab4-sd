@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Input and button styling */
+input {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    outline: none;
+    background: #333;
+    color: #ffffff;
+    text-align: center;
+}
+
+button {
+    padding: 12px 18px;
+    font-size: 18px;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff4b8a, #ff006f);
+    transform: scale(1.05);
+}
+
+/* Country info section */
+#country-info {
+    margin-top: 30px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#country-info img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    width: 200px;
+}
+
+/* Bordering countries section */
+#bordering-countries {
+    margin-top: 30px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bordering-countries h3 {
+    margin-bottom: 15px;
+    color: #ff758c;
+}
+
+/* Grid layout for bordering countries */
+#bordering-countries div {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+#bordering-countries img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
